@@ -1,5 +1,30 @@
 # React and Vue cheat sheet
 
+## React
+
+- React uses a virtual DOM.
+- React is component based: root -> reusable components (nowadays functional, before class-based)
+```js
+import React from 'react';
+
+// Functional component
+const Example = () => {
+  return <div>Hello world</div>
+}
+```
+
+### Hooks
+- Functions start with "use" e.g. `useState()`, `useEffect()` etc.
+
+### State
+- `const [counter, setCounter] = useState(0);`
+
+### Events
+- Similar to vanilla Javascript
+  - onClick
+  - onChange
+  - onCheck
+
 ## Vue
 
 - Vue apps consist of a template, possible components, data, methods, computed and watchers.
